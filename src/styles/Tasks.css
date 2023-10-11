@@ -1,0 +1,29 @@
+.tasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 25px;
+}
+.filters{
+    display: flex;
+    padding-right: 25px;
+    justify-content: flex-end;
+}
+.filters > span {
+    margin-right: 100px;
+}
+.sorting{
+    display: flex;
+    flex-direction: column;
+}
+.sort-filter{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.sorting > select {
+    /* width: 150px; */
+    height: 20px;
+    font-size: 15px;
+}
