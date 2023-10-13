@@ -34,7 +34,7 @@ function Home() {
         <div className="main-container">
             <section className="main-section">
                 {<Header email={email}/>}
-                <h1>Todo App </h1>
+                <h1>Todo application </h1>
                 <div className="list-input">
                     <input type="text" name="tasktodo" id="list-input" maxLength="25" onChange={(handleChange)} value={values} placeholder="Add task todo" />
                     <button className="btn btn-add-task" type="button" onClick={createTask}>Create Task</button>
