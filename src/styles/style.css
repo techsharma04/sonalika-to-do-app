@@ -4,10 +4,11 @@
     justify-content: flex-end;
     align-items: center;
     width: 100% - 30px;
-    
+
 }
 .header-container > small {
     margin-right: 15px;
+    background-color: green;
 }
 .header-btn{
     width: 100px;
