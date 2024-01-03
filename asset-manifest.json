@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sonalika-to-do-app/static/css/main.8b5c74c6.css",
+    "main.js": "/sonalika-to-do-app/static/js/main.13ddb118.js",
+    "index.html": "/sonalika-to-do-app/index.html",
+    "main.8b5c74c6.css.map": "/sonalika-to-do-app/static/css/main.8b5c74c6.css.map",
+    "main.13ddb118.js.map": "/sonalika-to-do-app/static/js/main.13ddb118.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b5c74c6.css",
+    "static/js/main.13ddb118.js"
+  ]
+}
