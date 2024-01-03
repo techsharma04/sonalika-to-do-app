@@ -13,13 +13,13 @@ import { Provider } from 'react-redux';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename='/sonalika-to-do-app'>
       <Routes>
         <Route path='/' element={<Login />} />
         <Route path="/home/:email" element={<Home />} />
         <Route path="/NewTask//:email" element={<Newtask />} />
-        <Route path="/NewTask/:tasktodo/:email" element={<Newtask/>} />
- 
+        <Route path="/NewTask/:tasktodo/:email" element={<Newtask />} />
+
       </Routes>
     </BrowserRouter>
   </Provider>
